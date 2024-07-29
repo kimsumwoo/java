@@ -1,4 +1,4 @@
-package ch02;
+package com.mycompany.ch02;
 
 public class ByteEx {
 
