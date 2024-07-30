@@ -7,9 +7,9 @@ public class ConditionalOperation8_tr {
 		int a = 91;
 		String bbb = (a > 90) ? "크다" : "작다";
 		
-		System.out.println("bbb :" + bbb);
+		System.out.println("a가 더 :" + bbb);
 		
-
+		
 	}
 
 }
