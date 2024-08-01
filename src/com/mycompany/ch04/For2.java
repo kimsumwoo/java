@@ -16,7 +16,7 @@ public class For2 {
 		for(int i=11; i<=50; i++) {
 			if(i%2 == 0) {
 				sum += i;
-			}else {
+			} else {
 				
 			}
 		}
