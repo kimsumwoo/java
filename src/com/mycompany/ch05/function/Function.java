@@ -42,7 +42,7 @@ public class Function {
 			return "Hello";
 		}
 		
-		public static void sum2 (int a, int b) {
+		public static void sum2(int a, int b) {
 			int sum = a + b;
 			System.out.println(a + "+" + b + "=" + sum);
 			}
