@@ -6,7 +6,7 @@ public class CalculatorEx {
 		
 //		Calculator calculator = new Calculator();
 		
-		System.out.println("calculator pi :" + Calculator.pi);
+		System.out.println("Calculator pi :" + Calculator.pi);
 		
 		add(1,2);
 		
