@@ -9,6 +9,7 @@ public class MemberEx {
 //		member.name = "Tony"
 		
 		member.setName("Tony");
+		member.aaa();
 		
 //		member.age = 27;
 		member.setAge(27);
