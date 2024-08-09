@@ -1,11 +1,22 @@
 package com.mycompany.ch07.thrid;
 
-public class Studenttr extends People {
+public class Studenttr extends Peopletr{
 	public int number;
 	
-	public Studenttr(String name, String ssn; int num) {
-		super(name,ssn);
-		this.num =num;
+	public Studenttr(String name, String ssn, int number) {
+		super(name , ssn);
+		this.number =number;
 	}
+
+	@Override
+	void peoplename() {
+		if (number>=22) {
+			super.peoplename();
+		}else {
+			System.out.println("Studenttr : " + name);
+		}
+	}
+	
+	
 
 }

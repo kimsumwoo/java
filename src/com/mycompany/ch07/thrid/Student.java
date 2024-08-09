@@ -11,12 +11,12 @@ public class Student extends People{
 //		this.ssn = ssn;
 		this.studentNo = studentNo;
 	}
-	public Student(String name, String ssn) {
-		super(name, ssn);
-	}
-		public Student() {
+//	public Student(String name, String ssn) {
+//		super(name, ssn);
+//	}
+//		public Student() {
 //			super();
-		}
+//		}
 		@Override
 		void sayName() {
 			if(studentNo >=21) {
