@@ -35,6 +35,7 @@ public class BeepPrintThreadEx {
 //				Thread.sleep(500);
 //			} catch (InterruptedException e) {}
 //		}
+		
 		Thread thread = new Thread(new Runnable() {
 			public void run() {
 				Toolkit toolkit = Toolkit.getDefaultToolkit();
@@ -42,7 +43,7 @@ public class BeepPrintThreadEx {
 					toolkit.beep();
 					System.out.println("kim");
 					try {
-						Thread.sleep(500);
+						Thread.sleep(800);
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
